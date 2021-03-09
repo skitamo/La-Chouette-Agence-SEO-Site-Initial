@@ -764,8 +764,12 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #5d524d;
     padding: 40px 40px 40px 40px;
+}
+
+.bg-banniere-texte {
+    background-color: #5d524d;
 }
 
 .bold-link {
