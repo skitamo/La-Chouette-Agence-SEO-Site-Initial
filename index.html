@@ -32,13 +32,13 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<header>
+<header aria-label="Header" role="header">
 	<div class="bloc bgc-white l-bloc " id="bloc-0">
 		<div class="container bloc-sm">
 
-			<nav class="navbar row">
+			<nav class="navbar row" aria-label="navigation">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence-min.png" alt="logo La Chouette Agence" height="40" /></a>
+					<a class="navbar-brand" href="index.html" role="img" aria-label="Page d'accueil" aria-describedby="Aller à la page d'accueil"><img src="img/la-chouette-agence-min.png" alt="logo La Chouette Agence" height="40" /></a>
 					<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 						<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 					</button>
@@ -46,10 +46,10 @@
 				<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 					<ul class="site-navigation nav navbar-nav">
 						<li>
-							<a href="index.html">Accueil</a>
+							<a href="index.html" role="menubar" aria-label="Page d'accueil" aria-describedby="Aller à la page d'accueil">Accueil</a>
 						</li>
 						<li>
-							<a href="page2.html">Contact &gt;</a>
+							<a href="page2.html" role="menubar" aria-label="Page de contact" aria-describedby="Aller à la page de contact">Contact &gt;</a>
 						</li>
 					</ul>
 				</div>
@@ -60,19 +60,19 @@
 <!-- bloc-0 END -->
 
 <!-- bloc-1-presentation -->
-<section>
+<section role="banner" aria-label="Présentation">
 	<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
 		<div class="container bloc-lg">
 			<div class="row tight-width-whitespace">
 				<div class="col-sm-12">
-					<img src="img/logo-min.png" class="center-block image-resize-mode" width="100" alt="Logo La Chouette Agence" />
+					<img src="img/logo-min.png" class="center-block image-resize-mode" width="100" role="img" aria-label="Logo Chouette" alt="Logo La Chouette Agence" />
 					<div class="bg-banniere-texte">
 						<h1 class="text-center hero-bloc-text tc-white ">
 							La chouette agence.
 						</h1>
 					</div>
 					<div class="text-center">
-						<a href="page2.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
+						<a href="page2.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero" role="button" aria-label="Contact" aria-describedby="Aller sur la page de contact">Contact</a>
 					</div>
 				</div>
 			</div>
@@ -82,7 +82,7 @@
 <!-- bloc-1-presentation END -->
 
 <!-- bloc-2-services -->
-<section>
+<section aria-label="Service">
 	<div class="bloc bgc-white l-bloc" id="bloc-2-services">
 		<div class="container bloc-md">
 			<div class="row">
@@ -96,7 +96,7 @@
 			<div class="row voffset-lg med-width-whitespace">
 				<div class="col-sm-4">
 					<div class="text-center">
-						<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg"></span>
+						<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg" role="img" aria-label="Icône Application"></span>
 					</div>
 					<h2 class="mg-md text-center">
 						Web design
@@ -107,7 +107,7 @@
 				</div>
 				<div class="col-sm-4">
 					<div class="text-center">
-						<span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg"></span>
+						<span class="et-icon-presentation sm-shadow icon-dark-slate-blue icons icon-lg" role="img" aria-label="Icône Courbe Ascendante"></span>
 					</div>
 					<h2 class="mg-md text-center">
 						&nbsp;Stratégie
@@ -118,7 +118,7 @@
 				</div>
 				<div class="col-sm-4">
 					<div class="text-center">
-						<span class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg"></span>
+						<span class="et-icon-edit sm-shadow icon-dark-slate-blue icons icon-lg" role="img" aria-label="Icône Crayon"></span>
 					</div>
 					<h2 class="mg-md text-center">
 						Illustrations
@@ -130,14 +130,14 @@
 			</div>
 			<div class="row voffset-lg voffset">
 				<div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
-					<h2>
+					<h2 aria-label="Citation">
 					"La chouette agence est une excellente agence web ! Les <br>
 					web designers ont réussi à capturer l'essence de notre <br>
 					entreprise et à l'intégrer à notre site. Cela nous a aidé à <br>
 					doubler nos ventes en ligne à Lyon."
 					</h2>
 
-					<p class="quoteAuthor">
+					<p class="quoteAuthor" aria-label="Auteur">
 						Maxime Guibard, PDG de À vos fourchettes
 					</p>
 
@@ -149,7 +149,7 @@
 <!-- bloc-2-services END -->
 
 <!-- bloc-3-what-i-do -->
-<section>
+<section role="banner" aria-label="Qu'est-ce que je fais?">
 	<div class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture b-parallax" id="bloc-3-what-i-do">
 		<div class="container bloc-lg">
 			<div class="row tight-width-whitespace bg-banniere-texte">
@@ -158,7 +158,7 @@
 						Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients .<br>
 					</h2>
 					<p class="text-center white">
-						Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br><a class="ltc-white bold-link" href="page2.html">Contactez notre équipe</a><br>
+						Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur les moteurs de recherche. <br><br><a class="ltc-white bold-link" href="page2.html" role="link" aria-label="Contact" aria-describedby="Allez à la page de contact">Contactez notre équipe</a><br>
 					</p>
 				</div>
 			</div>
@@ -168,7 +168,7 @@
 <!-- bloc-3-what-i-do END -->
 
 <!-- bloc-4-portfolio -->
-<section>
+<section aria-label="Portfolio">
 	<div class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
 		<div class="container bloc-lg">
 			<div class="row">
@@ -181,7 +181,7 @@
 			</div>
 			<div class="row tight-width-whitespace portfolio-row">
 				<div class="col-sm-6">
-					<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1-min.jpg" alt="Magazines colorés ouverts" class="img-responsive portfolio-thumb" /></a>
+					<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1-min.jpg" role="img" alt="Magazines colorés ouverts" class="img-responsive portfolio-thumb" /></a>
 					<h2 class="mg-md text-center">
 						Refonte d'un site web pour un journal local
 					</h2>
@@ -190,7 +190,7 @@
 					</p>
 				</div>
 				<div class="col-sm-6">
-					<a href="#" data-lightbox="img/2-min.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/2-min.jpg" class="img-responsive portfolio-thumb" alt="Photographe prenant une photo avec un appareil photo sur un trepied la nuit" /></a>
+					<a href="#" data-lightbox="img/2-min.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/2-min.jpg" class="img-responsive portfolio-thumb" role="img" alt="Photographe prenant une photo avec un appareil photo sur un trepied la nuit" /></a>
 					<h2 class="mg-md text-center">
 						Création d'un site web pour photographes
 					</h2>
@@ -201,7 +201,7 @@
 			</div>
 			<div class="row tight-width-whitespace portfolio-row">
 				<div class="col-sm-6">
-					<a href="#" data-lightbox="img/3-min.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3-min.jpg" class="img-responsive portfolio-thumb" alt="Matériel professionel de photographie, d'enregistrement audio et vidéo avec un Macbook"/></a>
+					<a href="#" data-lightbox="img/3-min.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3-min.jpg" class="img-responsive portfolio-thumb" role="img" alt="Matériel professionel de photographie, d'enregistrement audio et vidéo avec un Macbook"/></a>
 					<h2 class="mg-md text-center">
 						Création d'un site internet pour un voyageur
 					</h2>
@@ -210,7 +210,7 @@
 					</p>
 				</div>
 				<div class="col-sm-6">
-					<a href="#" data-lightbox="img/4-min.jpg" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4-min.jpg" class="img-responsive portfolio-thumb" alt="Travail avec un Macbook et un iPad" /></a>
+					<a href="#" data-lightbox="img/4-min.jpg" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4-min.jpg" class="img-responsive portfolio-thumb" role="img" alt="Travail avec un Macbook et un iPad" /></a>
 					<h2 class="mg-md text-center">
 						Conception d'un site pour une agence de mariage
 					</h2>
@@ -225,7 +225,7 @@
 <!-- bloc-4-portfolio END -->
 
 <!-- bloc-5-cta -->
-<section>
+<section aria-label="Footer">
 	<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture" id="bloc-5-cta">
 		<div class="container bloc-lg">
 			<div class="row">
@@ -255,61 +255,61 @@
 					<div class="row row-no-gutters social">
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+								<a class="social" href="index.html" role="link"><span class="fa fa-twitter icon-md" role="img" aria-label="Twitter"></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+								<a class="social" href="index.html" role="link"><span class="fa fa-facebook icon-md" role="img" aria-label="Facebook"></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+								<a class="social" href="index.html" role="link"><span class="fa fa-dribbble icon-md" role="img" aria-label="Dribbble"></span></a>
 							</div>
 						</div>
 						<div class="col-sm-3">
 							<div class="text-center">
-								<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+								<a class="social" href="index.html" role="link"><span class="fa fa-instagram icon-md" role="img" aria-label="Instagram"></span></a>
 							</div>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-sm-4">
 							<h2 class="footerTitle">Partenaires</h2>
-								<ul>
-									<li><a class="aFooter" href="voiture.com">voiture.com</a></li>
-									<li><a class="aFooter" href="pizza.com">pizza.com</a></li>
-									<li><a class="aFooter" href="matoiture.com">matoiture.com</a></li>
-									<li><a class="aFooter" href="immobilierseo.com">immobilierseo.com</a></li>
+								<ul role="navigation">
+									<li><a class="aFooter" href="voiture.com" role="link" aria-label="Voiture.com">voiture.com</a></li>
+									<li><a class="aFooter" href="pizza.com" role="link" aria-label="Pizza.com">pizza.com</a></li>
+									<li><a class="aFooter" href="matoiture.com" role="link" aria-label="Matoiture.com">matoiture.com</a></li>
+									<li><a class="aFooter" href="immobilierseo.com" role="link" aria-label="Immoboloerseo.com">immobilierseo.com</a></li>
 								</ul>		
 						</div>
 						<div class="col-sm-4">
 							<h2 class="footerTitle">Annuaires liste 1</h2>
-							<ul>
-								<li><a class="aFooter" href="annuaireagence.com">annuaireagence.com</a></li>
-								<li><a class="aFooter" href="annuaireseo.com">annuaireseo.com</a></li>
-								<li><a class="aFooter" href="annuairemarketing.com">annuairemarketing.com</a></li>
-								<li><a class="aFooter" href="123seoture.com">123seo.com</a></li>
-								<li><a class="aFooter" href="123site.com">123site.com</a></li>
-								<li><a class="aFooter" href="annuairewordpress.com">annuairewordpress.com</a></li>
-								<li><a class="aFooter" href="listeagence.com">listeagence.com</a></li>
-								<li><a class="aFooter" href="meilleuresagencesparis.com">meilleuresagencesparis.com</a></li>
-								<li><a class="aFooter" href="listeseo.com">listeseo.com</a></li>
+							<ul role="navigation">
+								<li><a class="aFooter" href="annuaireagence.com" role="link" aria-label="Annuaireagence.com">annuaireagence.com</a></li>
+								<li><a class="aFooter" href="annuaireseo.com" role="link" aria-label="Annuaireseo.com">annuaireseo.com</a></li>
+								<li><a class="aFooter" href="annuairemarketing.com" role="link" aria-label="Annuairemarketing.com">annuairemarketing.com</a></li>
+								<li><a class="aFooter" href="123seoture.com" role="link" aria-label="123seoture.com">123seo.com</a></li>
+								<li><a class="aFooter" href="123site.com" role="link" aria-label="123site.com">123site.com</a></li>
+								<li><a class="aFooter" href="annuairewordpress.com" role="link" aria-label="Annuairewordpress.com">annuairewordpress.com</a></li>
+								<li><a class="aFooter" href="listeagence.com" role="link" aria-label="Listeagence.com">listeagence.com</a></li>
+								<li><a class="aFooter" href="meilleuresagencesparis.com" role="link" aria-label="Meilleuresagencesparis.com">meilleuresagencesparis.com</a></li>
+								<li><a class="aFooter" href="listeseo.com" role="link" aria-label="Listeseo.com">listeseo.com</a></li>
 							</ul>
 						</div>
 						<div class="col-sm-4">
 							<h2 class="footerTitle">Annuaires liste 2</h2>
-							<ul>
-								<li><a class="aFooter" href="betterseo.com">betterseo.com</a></li>
-								<li><a class="aFooter" href="ameliorerseo.com">ameliorerseo.com</a></li>
-								<li><a class="aFooter" href="seojuicelien.com">seojuicelien.com</a></li>
-								<li><a class="aFooter" href="meilleursliens.com">meilleursliens.com</a></li>
-								<li><a class="aFooter" href="liensagogo.com">liensagogo.com</a></li>
-								<li><a class="aFooter" href="backlink.com">backlink.com</a></li>
-								<li><a class="aFooter" href="linkjuiceannuaire.com">linkjuiceannuaire.com</a></li>
-								<li><a class="aFooter" href="remontersurgoogle.com">remontersurgoogle.com</a></li>
-								<li><a class="aFooter" href="vraiseofiable.com">vraiseofiable.com</a></li>
+							<ul role="navigation">
+								<li><a class="aFooter" href="betterseo.com" role="link" aria-label="Betterseo.com">betterseo.com</a></li>
+								<li><a class="aFooter" href="ameliorerseo.com" role="link" aria-label="Ameliorerseo.com">ameliorerseo.com</a></li>
+								<li><a class="aFooter" href="seojuicelien.com" role="link" aria-label="Seojuicelien.com">seojuicelien.com</a></li>
+								<li><a class="aFooter" href="meilleursliens.com" role="link" aria-label="Meilleursliens.com">meilleursliens.com</a></li>
+								<li><a class="aFooter" href="liensagogo.com" role="link" aria-label="Liensagogo.com">liensagogo.com</a></li>
+								<li><a class="aFooter" href="backlink.com" role="link" aria-label="Backlink.com">backlink.com</a></li>
+								<li><a class="aFooter" href="linkjuiceannuaire.com" role="link" aria-label="Linkjuiceannuaire.com">linkjuiceannuaire.com</a></li>
+								<li><a class="aFooter" href="remontersurgoogle.com" role="link" aria-label="Remontersurgoogle.com">remontersurgoogle.com</a></li>
+								<li><a class="aFooter" href="vraiseofiable.com" role="link" aria-label="Vraiseofiable.com">vraiseofiable.com</a></li>
 							</ul>
 						</div>
 					</div>
