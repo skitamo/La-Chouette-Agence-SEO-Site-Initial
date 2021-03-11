@@ -1,0 +1,12 @@
+#header {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+#logo {
+}
+
+.navbar {
+	justify-content: flex-end!important;
+}
