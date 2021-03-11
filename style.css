@@ -705,8 +705,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
-    margin-bottom: 30px;
+    margin: 26px auto auto auto;
 }
 
 h2 {
@@ -770,7 +769,7 @@ h4 {
 }
 
 .bg-banniere-texte {
-    background-color: #5d524d;
+    background-color: #5d524d!important;
 }
 
 .bold-link {
@@ -791,7 +790,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #F0C1AB!important;
 }
 
 .btn-atomic-tangerine {
