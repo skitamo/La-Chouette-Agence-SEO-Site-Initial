@@ -840,6 +840,30 @@ h4 {
     background-image: url("img/image-de-presentation-min.jpg");
 }
 
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+#logo {
+    padding-top: 31px;
+    margin-left: 450px;
+}
+
+.navbar {
+    justify-content: flex-end!important;
+    padding-top: 31px!important;
+    margin-right: 435px;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1053,5 +1077,20 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        margin-bottom: 20px;
+    }
+    #logo {
+        padding: 30px 0px 0px 0px;
+        margin-left: 15px;
+    }
+
+    .navbar {
+        padding: 0px;
+        margin-right: 0px;
     }
 }

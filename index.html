@@ -10,6 +10,8 @@
     
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/et-line.css">
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -28,29 +30,25 @@
     
 <!-- bloc-0 -->
 <header aria-label="Header">
-	<div class="bloc bgc-white l-bloc " id="bloc-0">
-		<div class="container bloc-sm">
-
-			<nav class="navbar row" aria-label="navigation">
-				<div class="navbar-header">
-					<a class="navbar-brand" href="index.html" role="img" aria-label="Page d'accueil" aria-describedby="Aller à la page d'accueil"><img src="img/la-chouette-agence-min.png" alt="logo La Chouette Agence" height="40" /></a>
-					<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-						<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-					</button>
-				</div>
-				<div class="collapse navbar-collapse navbar-1 special-dropdown-nav" role="navigation">
-					<ul class="site-navigation nav navbar-nav">
-						<li>
-							<a href="index.html" role="link" aria-label="Page d'accueil" aria-describedby="Aller à la page d'accueil">Accueil</a>
-						</li>
-						<li>
-							<a href="page2.html" role="link" aria-label="Page de contact" aria-describedby="Aller à la page de contact">Contact &gt;</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
+	<div id="logo">
+			<a href="index.html"><img src="img/la-chouette-agence-min.png" alt="logo La Chouette Agence" height="40" /></a>
 		</div>
-	</div>
+		<nav class="navbar navbar-light navbar-expand-sm">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#responsive" aria-expanded="true" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="responsive">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="../index.html">Accueil</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../page2.html">Contact ></a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 </header>
 <!-- bloc-0 END -->
 
