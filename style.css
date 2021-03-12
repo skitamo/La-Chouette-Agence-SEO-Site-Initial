@@ -759,6 +759,7 @@ h4 {
 
 .portphoto {
     width: 100%;
+    height: auto;
     margin-bottom: 24px;
 }
 
@@ -873,6 +874,7 @@ header {
 
 #logo img {
     width: 214px;
+    height: auto;
 }
 
 .navbar {
