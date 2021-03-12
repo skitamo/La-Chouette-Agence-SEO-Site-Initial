@@ -539,6 +539,7 @@ a[data-lightbox] {
 a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-display: swap;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -650,6 +651,7 @@ label,
 .btn,
 a {
     font-family: "helvetica";
+    font-display: swap;
     font-weight: 400;
     color: #575757!important;
 }
@@ -692,6 +694,7 @@ p {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
+    font-display: swap;
 }
 
 .cta-hero {
@@ -770,6 +773,7 @@ h4 {
 
 .bg-banniere-texte {
     background-color: #5d524d!important;
+    margin: auto;
 }
 
 .bold-link {
