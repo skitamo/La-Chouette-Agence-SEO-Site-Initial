@@ -879,6 +879,19 @@ header {
     margin-right: 435px;
 }
 
+#serviceContainer {
+    position: relative!important;
+}
+
+#citation {
+    position: absolute!important;
+    left: 170px;
+}
+
+.mb {
+    margin-top: 120px;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
